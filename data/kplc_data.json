@@ -1,0 +1,800 @@
+{
+  "intents": [
+      {
+          "tag": "greeting",
+          "patterns": [
+              "Hi",
+              "Hello",
+              "Hey",
+              "How are you?",
+              "Good day"
+          ],
+          "responses": [
+              "Hello! How can I help you?",
+              "Hi there! How can I assist you today?"
+          ]
+      },
+      {
+          "tag": "farewell",
+          "patterns": [
+              "Bye",
+              "Goodbye",
+              "See you later",
+              "Take care"
+          ],
+          "responses": [
+              "Goodbye! Have a great day.",
+              "See you later!"
+          ]
+      },
+      {
+          "tag": "thanks",
+          "patterns": [
+              "Thank you",
+              "Thanks a lot",
+              "Much appreciated"
+          ],
+          "responses": [
+              "You're welcome!",
+              "Glad I could assist you."
+          ]
+      },
+      {
+          "tag": "help",
+          "patterns": [
+              "Help",
+              "Can you help me?",
+              "I need assistance"
+          ],
+          "responses": [
+              "Sure, what do you need help with?",
+              "Of course! What can I assist you with?"
+          ]
+      },
+      {
+          "tag": "kplc_info",
+          "patterns": [
+              "What is KPLC?",
+              "Tell me about Kenya Power",
+              "KPLC information"
+          ],
+          "responses": [
+              "Kenya Power and Lighting Company (KPLC) is a public electric utility company in Kenya. It's responsible for the generation, transmission, and distribution of electricity in the country."
+          ]
+      },
+      {
+          "tag": "bill_inquiry",
+          "patterns": [
+              "Check my bill",
+              "How much is my bill?",
+              "Bill inquiry"
+          ],
+          "responses": [
+              "To check your KPLC bill, you can visit the official KPLC website or use the KPLC mobile app."
+          ]
+      },
+      {
+          "tag": "join_computer_to_domain",
+          "patterns": [
+              "How join computer to domain?",
+              "Join computer to domain",
+              "Domain join instructions",
+              "How to add computer to domain?",
+              "Add PC to domain",
+              "Computer join domain steps",
+              "How do I join a PC to the domain?",
+              "PC domain join",
+              "Join to domain",
+              "Instructions for joining domain"
+          ],
+          "responses": [
+              "1. Go to Start, Right Click on Computer",
+              "2. Click on Remote Settings on the Left Hand side.",
+              "3. The system Properties window pops up, Click on Computer Name then Click on Change",
+              "4. Type the computer name according to the naming conventions example: NKU-BMT-13243",
+              "5. Click on the Domain and type the domain name: kplc.local",
+              "6. Authenticate using Windows profile credentials",
+              "7. Click on OK. The computer will restart automatically."
+          ]
+      },
+      {
+          "tag": "add_user_local_admin",
+          "patterns": [
+              "How add user to local admin group?",
+              "Add user to local admin",
+              "Local admin user setup",
+              "How to add user to admin group?",
+              "Add to local admin",
+              "User to admin group",
+              "Add user admin steps",
+              "Steps to add user to local admin",
+              "Local admin add user",
+              "User to local admin"
+          ],
+          "responses": [
+              "1. Go to Start, Click on Control Panel",
+              "2. Click on User Accounts",
+              "3. Click on Manage User Accounts",
+              "4. Click on Add",
+              "5. Type in the username and the domain name then click on Next",
+              "6. Select Administrator",
+              "7. Alternatively, you may click on Other then select Administrators",
+              "8. The username appears under 'Users for this computer.' Click on OK."
+          ]
+      },
+      {
+          "tag": "connect_network_printer",
+          "patterns": [
+              "How connect to network printer?",
+              "Connect to network printer",
+              "Network printer setup",
+              "How to connect printer to network?",
+              "Network printer connect",
+              "Printer setup network",
+              "Steps to connect network printer",
+              "Add network printer",
+              "Setup network printer",
+              "Connect to printer on network"
+          ],
+          "responses": [
+              "1. Go to Start, run then type \\\\172.31.53.1. Select the network printer to connect to.",
+              "2. Right-click and click on Connect to",
+              "3. If prompted, click on Install driver",
+              "4. Wait for the printer to install",
+              "5. Click on Start then Devices and Printers",
+              "6. Locate the network printer",
+              "7. Right-click and click on Properties then click on Print Test Page",
+              "8. Close after the test page has been printed."
+          ]
+      },
+      {
+          "tag": "configure_outlook_2010",
+          "patterns": [
+              "How configure email on Outlook 2010?",
+              "Configure email on Outlook 2010",
+              "Outlook 2010 email setup",
+              "How to setup email in Outlook 2010?",
+              "Outlook 2010 email configure",
+              "Email setup Outlook 2010",
+              "Steps to setup email on Outlook 2010",
+              "Add email to Outlook 2010",
+              "Setup email Outlook 2010",
+              "Email configure Outlook 2010"
+          ],
+          "responses": [
+              "1. Go to Start, then click on All Programs, Microsoft Office, then Microsoft Outlook 2010",
+              "2. Click on Email Account, wait for the email address to appear automatically, then click on Manually configure server settings or additional server types",
+              "3. Select Microsoft Exchange or compatible service, then click on Next",
+              "4. Type in the Exchange server name and the username. Click on Check Name then click on Next",
+              "5. Finish",
+              "6. Create a folder called Mails on the user's Local Drive to store the user's PST files",
+              "7. Go to Start, All Programs, Microsoft Office, then Microsoft Office 2010",
+              "8. Click on File then click on Account Settings",
+              "9. Data Files, then click on Add",
+              "10. Browse to the Mails folder, name the PST, then click on Open",
+              "11. Select the new Data file then click on 'Set as Default'",
+              "12. Click on Yes"
+          ]
+      },
+      {
+          "tag": "install_configure_ics",
+          "patterns": [
+              "How install and configure ICS?",
+              "Install ICS",
+              "Configure ICS",
+              "Steps to install ICS",
+              "ICS installation steps",
+              "Configure ICS steps",
+              "Install and setup ICS",
+              "ICS setup guide",
+              "ICS install configure",
+              "Install and configure ICS guide"
+          ],
+          "responses": [
+              "1. Go to Run (Windows + R) and type \\\\stima-fprnt-001",
+              "2. Browse for the New ICS and double-click",
+              "3. Browse the New ICS folder and double-click on ICS_Oacle9iSetup",
+              "4. The installation wizard will launch. Click on Next",
+              "5. Click on 'I agree to the terms of this license agreement'",
+              "6. Click on Next",
+              "7. Type in the Name and the Company",
+              "8. Select Typical then click on Next",
+              "9. Click on Next",
+              "10. Click on Next",
+              "11. Click on Next",
+              "12. Wait for the installation to complete",
+              "13. Click on Finish",
+              "14. Ensure that the KPLC CMS shortcut is on the desktop",
+              "15. Browse to \\\\stima-fprnt-001\\Software Updates folder and double-click",
+              "16. Browse for the ICS Updates and double-click",
+              "17. Browse for Upgrade and double-click",
+              "18. Copy OPENSGC.ini file and paste it in C:\\Opencms folder, replacing the existing one",
+              "19. Browse to \\\\stima-fprnt-001\\Installations\\New ICS and double-click on Updtpbds.bat file",
+              "20. Copy the same Updtpbds.bat file to the local PC Startup folder"
+          ]
+      },
+      {
+          "tag": "install_configure_dcs",
+          "patterns": [
+              "Install DCS",
+              "Configure DCS",
+              "Setting up DCS",
+              "DCS installation steps",
+              "How to install DCS?",
+              "DCS setup guide"
+          ],
+          "responses": [
+              "1. Go to Start and type \\\\stima‐fprnt‐001\\Installations or windows R",
+              "2. Browse for the New DCS folder and Double Click",
+              "3. Double Click on the Setup File",
+              "4. Click on Next",
+              "5. Yes",
+              "6. Click on Next",
+              "7. Next",
+              "8. Next",
+              "9. Yes",
+              "10. Click on Full installation then Click on Next",
+              "11. Next",
+              "12. Click on Next",
+              "13. Finish",
+              "14. Confirm the KPLC DCS icon is on the Desktop",
+              "15. Run the Updtpds.bat on startup (type win R and type \\\\stima-fprnt and browse it)"
+          ]
+      },
+      {
+          "tag": "install_configure_sap",
+          "patterns": [
+              "Install SAP",
+              "Configure SAP",
+              "Setting up SAP",
+              "SAP installation steps",
+              "How to install SAP?",
+              "SAP setup guide"
+          ],
+          "responses": [
+              "1. Go to Start and type \\\\stima‐fprnt‐001\\Installations",
+              "2. Browse for the folder SAPGUI710 and Double Click",
+              "3. Open the following folders PRES1\\GUI\\WINDOWS\\WIN64\\",
+              "4. Double Click on SapGuiSetup",
+              "5. Click on Next",
+              "6. Click on Sap GUI for Windows 7.10 then Click on Next",
+              "7. Next",
+              "8. Wait for the installation to complete",
+              "9. Finish"
+          ]
+      },
+      {
+          "tag": "install_configure_power_builder",
+          "patterns": [
+              "Install Power Builder",
+              "Configure Power Builder",
+              "Setting up Power Builder",
+              "Power Builder installation steps",
+              "How to install Power Builder?",
+              "Power Builder setup guide"
+          ],
+          "responses": [
+              "1. Go to Start then type \\\\stima‐fprnt‐001\\Installations",
+              "2. Browse for the folder PB6 and Double Click",
+              "3. Double Click on Setup.exe",
+              "4. Wait for the Installation to Launch",
+              "5. Click on Next",
+              "6. Next",
+              "7. Yes",
+              "8. Select on Typical then Click on Next",
+              "9. Next",
+              "10. Wait for the installation to complete",
+              "11. Wait for the installation to update system entries",
+              "12. Click on OK",
+              "13. Click on Yes, I would like to reboot my system now then click on Finish."
+          ]
+      },
+      {
+          "tag": "install_configure_fdb",
+          "patterns": [
+              "Install FDB",
+              "Configure FDB",
+              "Setting up FDB",
+              "FDB installation steps",
+              "How to install FDB?",
+              "FDB setup guide"
+          ],
+          "responses": [
+              "1. Go to Start and Type \\\\stima‐fdb",
+              "2. Browse for the folder FDB",
+              "3. Right Click on it and Click on Map Network Drive",
+              "4. Choose P as the Drive letter",
+              "5. Double Click on the mapped network drive P",
+              "6. Copy the FDBV10- Shortcut to the Desktop",
+              "7. Confirm if the Shortcut is on the Desktop",
+              "8. Go to Start and type \\\\stima‐fprnt‐001\\Java. Double Click on Java folder",
+              "9. Double Click on Jre‐6u7‐windows‐i586‐p‐5.exe file",
+              "10. Click on Accept",
+              "11. Wait for the installation to complete",
+              "12. Finish"
+          ]
+      },
+      {
+          "tag": "install_configure_dtmmms",
+          "patterns": [
+              "Install DTMMS",
+              "Configure DTMMS",
+              "Setting up DTMMS",
+              "DTMMS installation steps",
+              "How to install DTMMS?",
+              "DTMMS setup guide"
+          ],
+          "responses": [
+              "1. Go to Start and Type \\\\stima‐fprnt‐001",
+              "2. Browse for the folder DTMMS_NEW",
+              "3. Copy this folder and paste it to local drive C of the Client PC",
+              "4. Go to the Local Drive Browse for the folder DTMMS_NEW and Double Click",
+              "5. Right Click on the Ocen.exe icon and click on Send to Desktop Icon",
+              "6. Locate Icon on the Desktop and Rename to DTMMS_PROD",
+              "7. Run the Startup updtwanpbs.bat"
+          ]
+      },
+      {
+          "tag": "configure_virtual_memory",
+          "patterns": [
+              "Set virtual memory",
+              "Change virtual memory settings",
+              "Adjust virtual memory",
+              "How to set virtual memory?",
+              "Virtual memory setup guide"
+          ],
+          "responses": [
+              "1. Right-click My Computer Icon, remote settings",
+              "2. Go to Advanced, Performance, Settings, Advanced",
+              "3. Set the virtual memory to 512‐4096 MB",
+              "4. Click on Set",
+              "5. Restart the computer"
+          ]
+      },
+      {
+          "tag": "install_configure_shares",
+          "patterns": [
+              "Install Shares",
+              "Configure Shares",
+              "Setting up Shares",
+              "Shares installation steps",
+              "How to install Shares?",
+              "Shares setup guide"
+          ],
+          "responses": [
+              "Installation Requirements:",
+              "1. Set virtual Memory to 512‐ 4096 MB; follow the following steps to do so: ‐",
+              "2. Right click my Computer Icon, remote settings",
+              "3. Go to Advanced, Performance, Settings, Advanced",
+              "4. Set the virtual memory to 512‐4096 MB",
+              "5. Click on Set",
+              "6. Restart the computer",
+              "Installation Procedure:",
+              "1. Go to Start and Type \\\\stima‐fprnt‐001\\Installations\\Shares",
+              "2. Browse for the folder disk1 and Double Click",
+              "3. Double Click on Install then Double Click on Setup",
+              "4. Wait for installation to Launch",
+              "5. Click on Next",
+              "6. Confirm installation paths Click on Next",
+              "7. Wait for to load products list then Click on Next",
+              "8. Select Complete then Click on Next",
+              "9. Wait for to complete setting up install types",
+              "10. Click on Browse",
+              "11. Change path to disk 2 then Click on Ok",
+              "12. Wait for the installation to complete",
+              "13. Browse",
+              "14. Change the installation path to disk 1 then Click on Ok",
+              "15. Next",
+              "16. Click on Exit",
+              "17. Yes",
+              "18. Click on Next",
+              "19. Install",
+              "20. Wait for the installation to complete",
+              "21. After the installation is complete Copy the TNS name on \\\\insuarnce\tns to       C:\\DevSuiteHome_1\\NETWORK\\ADMIN tnsnames.ora",
+              "22. Start oracle instance on program files oracle developer suite devsuitehome on the forms   developer",
+              "23. Edit the preferences for browser and 127:00",
+              "SHARES.FMX SHARES.FMB"
+          ]
+      },
+      {
+          "tag": "install_configure_ims",
+          "patterns": [
+              "Install IMS",
+              "Configure IMS",
+              "Setting up IMS",
+              "IMS installation steps",
+              "How to install IMS?",
+              "IMS setup guide"
+          ],
+          "responses": [
+              "1. Go to Start then type \\\\stima‐fprnt‐001\\Wan_pbds\\IMS_UPGRADE",
+              "2. Make sure that PowerBuilder runtime is installed on the P.C. If not, run the file PB105Cliente.exe in the folder PB105‐Cliente to do so.",
+              "3. Make sure that the PC also has Oracle client 9 or 10 installed",
+              "4. Copy the tnsname for I.M.S production database below to your Oracle client’s installation tnsnames.ora file:",
+              "imsprod.world = (DESCRIPTION = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = 172.16.1.57)(PORT = 1522))) (CONNECT_DATA = (SERVER = DEDICATED) (SERVICE_NAME = ims)))",
+              "5. Copy the folder Openimsupg to your computer’s drive C:\\",
+              "6. Make sure the paths to the above folders C:\\openimsupg\\winpath;C:\\openimsupg\\WizArt;C:\\openimsupg\\Wizdata;C:\\openimsupg\\Recursos; are in your computer’s PATH environment variable.",
+              "7. Verify the regional setting for your PC short Date format is: dd/mm/yyyy.",
+              "8. Verify that in the folder C:\\openimsupg\\winpath the files: CTDATE32.OCX and CTMETR32.OCX are present.",
+              "9. Run the two commands below one after the other. Go to the start menu and click on the Run Icon. Type each command below and press the “Enter” button:",
+              "REGSVR32 CTDATE32.OCX",
+              "REGSVR32 CTMETR32.OCX",
+              "10. Create the shortcuts to the applications on the desktop and run the system. The executables are now in the folders C:\\openimsupg\\IMS\\opensgi.exe and C:\\openimsupg\\MCI\\openmci.exe.",
+              "11. Windows 7 users should run the applications in Compatibility mode by right-clicking on the executable / shortcut and selecting the option “Troubleshoot compatibility”."
+          ]
+      },
+      {
+          "tag": "install_configure_hardcat",
+          "patterns": [
+              "Install HardCAT",
+              "Configure HardCAT",
+              "Setting up HardCAT",
+              "HardCAT installation steps",
+              "How to install HardCAT?",
+              "HardCAT setup guide"
+          ],
+          "responses": [
+              "1. Go to Start",
+              "2. Web Applications",
+              "Type the URL of the following web applications to the Web browser e.g. Internet Explorer:",
+              "Web Application Name: Service Desk, URL: http://servicedesk, Alternate URL: http://172.16.3.53/lansupport",
+              "Web Application Name: CRM, URL: http://crm, Alternate URL: http://172.16.3.44/lansupport",
+              "Web Application Name: Satis, URL: http://satis/satis, Alternate URL: http://172.16.3.92/satis",
+              "Web Application Name: Intranet, URL: http://s‐hqs‐shpt‐001/sites/intranet",
+              "Web Application Name: ITRON, URL: http://172.16.2.18:81/KPLC/1.1/WebApps/AppShellWA/Default.aspx",
+              "Web Application Name: Citrix, URL: http://172.16.2.5",
+              "Install the Citrix online Plugin found here \\\\stima‐fprnt‐001\\Installations\\CitrixOnlinePluginWeb"
+          ]
+      },
+      {
+          "tag": "qgis_installation",
+          "patterns": [
+              "How do I install QGIS?",
+              "Which version of QGIS should I download?",
+              "Is there a preferred QGIS version?"
+          ],
+          "responses": [
+              "To install QGIS, visit the official QGIS website and download the installer. It is highly recommended to choose the 64-bit version, as the 32-bit version has reached its end of support. The 64-bit version offers better performance and compatibility with modern systems. After downloading, run the installer and follow the on-screen instructions to complete the installation.",
+              "When installing QGIS, always opt for the 64-bit version. The 32-bit version is no longer supported and may lack recent updates and features. The 64-bit version ensures you have access to the latest improvements and can handle larger datasets more efficiently."
+          ]
+      },
+      {
+          "tag": "qgis_plugins",
+          "patterns": [
+              "What plugins should I install for QGIS?",
+              "How do I install plugins in QGIS?",
+              "Are there any recommended QGIS plugins?"
+          ],
+          "responses": [
+              "To install plugins in QGIS, navigate to the top menu bar and select 'Plugins' -> 'Manage and Install Plugins'. In the plugin manager, you can browse, search, and install various plugins. Two highly recommended plugins are QFieldSync and MMQGIS. QFieldSync is essential for preparing and synchronizing projects with QField, a mobile data collection app, while MMQGIS provides a set of useful tools for manipulating vector layers.",
+              "QGIS offers a wide range of plugins to extend its functionality. To install them, use the 'Plugins' menu in the top menu bar. The plugin manager allows you to explore available plugins. QFieldSync and MMQGIS are two popular choices. QFieldSync facilitates working with QField for mobile data collection, and MMQGIS adds several vector layer processing tools."
+          ]
+      },
+      {
+          "tag": "adding_basemap",
+          "patterns": [
+              "How can I add Google Hybrid Satellite as a basemap?",
+              "Can I use Google Maps in QGIS?",
+              "What's the process for adding custom XYZ Tiles?"
+          ],
+          "responses": [
+              "To add Google Hybrid Satellite as a basemap in QGIS, look at the left panel in the Browser window. Under 'XYZ Tiles', right-click and select 'New Connection'. Give it a name like 'Google Hybrid' and in the URL field, paste this link: https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}. Click 'OK' to save. You can then drag this new entry onto your map canvas to use it as a basemap. This provides high-resolution satellite imagery with labels, enhancing your map's visual context.",
+              "QGIS allows you to add custom basemaps using XYZ Tiles. For Google Hybrid Satellite, use the Browser panel on the left. Expand 'XYZ Tiles', right-click, choose 'New Connection', name it, and use the URL: https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}. After saving, you can easily add it to your project. This basemap combines satellite imagery with road and label overlays from Google Maps."
+          ]
+      },
+      {
+          "tag": "adding_csv_layer",
+          "patterns": [
+              "How do I add a CSV file as a layer in QGIS?",
+              "What's the process for adding a delimited text layer?",
+              "Can I use latitude and longitude from a CSV in QGIS?"
+          ],
+          "responses": [
+              "To add a CSV file as a layer in QGIS, go to 'Layer' -> 'Add Layer' -> 'Add Delimited Text Layer' in the top menu. In the dialog that appears, click the '...' button next to 'File Name' and select your CSV file. Ensure your CSV has columns for coordinates (like longitude and latitude). In the 'Geometry Definition' section, specify which columns represent X (longitude) and Y (latitude). QGIS often auto-detects these. For the CRS (Coordinate Reference System), if your coordinates are in decimal degrees, choose EPSG:4326. If they're in a projected system like UTM, you might need EPSG:21037 or another appropriate CRS. Click 'Add' and then 'Close' to add your CSV data as a new layer.",
+              "Adding a CSV file with geographic coordinates is straightforward in QGIS. Use 'Layer' -> 'Add Layer' -> 'Add Delimited Text Layer'. Select your CSV file and let QGIS detect the longitude (X) and latitude (Y) columns. The crucial step is choosing the correct CRS: for worldwide lat/long data, use EPSG:4326; for projected coordinates, you might need something like EPSG:21037 (UTM zone 37S) or another region-specific CRS. Proper CRS selection ensures your data appears in the right location on the map."
+          ]
+      },
+      {
+          "tag": "formatting_layers",
+          "patterns": [
+              "How do I format layers in QGIS?",
+              "What are the key aspects of layer formatting?",
+              "Can you explain layer symbology, labeling, and display?"
+          ],
+          "responses": [
+              "Formatting layers in QGIS involves three main aspects: Symbology, Labels, and Display. To access these, double-click on the layer in the Layers panel or right-click and choose 'Properties'. In the 'Symbology' tab, you can change how features are visualized: choose colors, symbols, or even use data-driven styling. The 'Labels' tab allows you to add text labels to your features based on their attributes, with options for font, size, color, and placement. The 'Display' tab controls layer rendering, like transparency and blending modes. Each of these components contributes to how your layer looks and interacts with other layers in your map.",
+              "Layer formatting in QGIS is crucial for effective visualization. There are three key areas to focus on: 1) Symbology: This determines the visual appearance of your features. You can set simple colors or use complex rule-based or graduated symbols based on attributes. 2) Labels: These display text on your map based on feature attributes. You can control label placement, font, size, and even use expressions for dynamic labeling. 3) Display: This tab manages how the layer is rendered, including its transparency and blending with other layers. Properly formatted layers enhance map readability and convey information more effectively."
+          ]
+      },
+      {
+          "tag": "qfield_preparation",
+          "patterns": [
+              "How do I prepare files for QField?",
+              "What's the process of configuring layers for QField?",
+              "Can you explain packaging for QField?"
+          ],
+          "responses": [
+              "Preparing files for QField involves several steps after your layers are set up in QGIS. First, ensure all your layers are properly formatted (Symbology, Labels, Display). Then, use the QFieldSync plugin: go to 'Plugins' -> 'QFieldSync' -> 'Configure Project for QField'. This opens a dialog where you can set up each layer for offline editing, specify photo paths, and more. Once configured, go to 'Plugins' -> 'QFieldSync' -> 'Package for QField'. Choose a destination folder for your package. This process copies all necessary files (including offline base maps and attachments) into a single folder, ready to be transferred to your mobile device running QField.",
+              "QField preparation starts with a well-structured QGIS project. After formatting your layers, use the QFieldSync plugin to configure each layer for mobile use. This includes setting up offline editing capabilities and managing attachments like photos. The key step is 'Package for QField', which bundles your project, layers, and basemaps into a compact, mobile-ready package. This package can then be transferred to your mobile device, allowing you to collect or review data in the field with QField, maintaining the styling and structure you set up in QGIS."
+          ]
+      },
+      {
+          "tag": "layer_metadata",
+          "patterns": [
+              "How do I view layer metadata in QGIS?",
+              "What information is available in QGIS layer properties?",
+              "Can I edit layer information in QGIS?"
+          ],
+          "responses": [
+              "To view and edit layer metadata in QGIS, right-click on the layer in the Layers panel and select 'Properties'. Navigate to the 'Information' tab. Here, you'll find details about the layer such as its data source, geometry type, feature count, spatial extent, and coordinate reference system. Some of this information is read-only, but you can also edit or add custom metadata like abstract, attribution, metadata URL, and more. This metadata helps document your data sources and can be crucial for data sharing and management.",
+              "QGIS provides comprehensive layer information through the layer properties dialog. Access it by double-clicking the layer or via the right-click menu. In the 'Information' tab, you'll see technical details about the layer's source, type, and spatial characteristics. Additionally, you can input descriptive information like title, abstract, or even licensing details. While core technical details are read-only, these descriptive fields allow you to document your layers thoroughly, aiding in project organization and data sharing."
+          ]
+      },
+      {
+          "tag": "vector_layer_editing",
+          "patterns": [
+              "How do I edit a vector layer in QGIS?",
+              "Can I add or modify features in QGIS?",
+              "What tools are available for vector editing?"
+          ],
+          "responses": [
+              "Editing vector layers in QGIS is a core functionality. To begin, right-click on the layer and select 'Toggle Editing' or click the pencil icon in the Digitizing toolbar. Once in edit mode, you can add new features with the 'Add Point/Line/Polygon Feature' tools, modify existing geometries with the 'Vertex Tool', or edit attribute values directly in the attribute table. QGIS also offers advanced editing tools like 'Split Features', 'Merge Features', or 'Reshape Features'. Always remember to save your edits and then toggle editing off when you're done to commit changes to the data source.",
+              "Vector layer editing in QGIS allows you to create, modify, or delete features. Start by enabling editing mode for your layer. Then, use the various digitizing tools to add new points, lines, or polygons, or modify existing ones. The 'Vertex Tool' is particularly useful for adjusting individual nodes of features. You can also edit attributes directly. QGIS provides both basic and advanced editing tools, catering to simple additions and complex geometric operations. It's crucial to regularly save your edits and to disable editing mode properly to ensure all changes are written to the source data."
+          ]
+      },
+      {
+          "tag": "spatial_queries",
+          "patterns": [
+              "How do I perform spatial queries in QGIS?",
+              "What is the Select by Location tool?",
+              "Can I find features based on their spatial relationship?"
+          ],
+          "responses": [
+              "Spatial queries in QGIS allow you to select features based on their geographic relationship to other features. Use 'Vector' -> 'Research Tools' -> 'Select by Location'. In the dialog, choose the layer you want to select from, the geometric predicate (like intersects, contains, overlaps), and the reference layer. You can also set additional options like creating a new selection or adding to the current selection. This tool is powerful for tasks like finding all buildings within a certain distance of a road, or all parcels that intersect a flood zone.",
+              "QGIS offers robust spatial query capabilities through the 'Select by Location' tool. Found under 'Vector' -> 'Research Tools', this function lets you select features from one layer based on their spatial relationship to another layer. You define the type of relationship (e.g., intersects, within, touches) and QGIS identifies all features meeting that criteria. It's incredibly useful for complex spatial analysis, like identifying affected properties in an environmental study or customer distribution around retail locations. The results can then be used for further analysis or exported as a new layer."
+          ]
+      },
+      {
+          "tag": "map_composer",
+          "patterns": [
+              "How do I create a map layout in QGIS?",
+              "What is the QGIS Print Layout used for?",
+              "Can I add a legend and scale bar to my map?"
+          ],
+          "responses": [
+              "Creating a map layout in QGIS is done through the Print Layout Manager. Go to 'Project' -> 'New Print Layout' and give your layout a name. In the Print Layout window, use 'Add Item' from the left toolbar to add map elements: start with 'Add Map' to bring in your current map view. Then, you can add other items like legends, scale bars, north arrows, images, and text labels. Each item can be positioned and customized. Use the Item Properties panel on the right to adjust the details of each element. The Print Layout allows you to create professional map compositions ready for printing or exporting as images or PDFs.",
+              "The QGIS Print Layout is a powerful tool for composing maps for presentation or publication. After setting up your map in the main QGIS window, open a new Print Layout to design your final map product. Here, you'll add your map and complement it with elements like titles, legends, scale bars, and additional information. The Layout offers fine control over the size, position, and style of each map component. You can work with multiple pages and templates, add graphics and tables, and even link multiple maps for atlas production. Once your layout is complete, you can export it in various formats suitable for both digital display and high-quality printing."
+          ]
+      },
+      {
+          "tag": "default_response",
+          "patterns": [
+              "Hi",
+              "Hello",
+              "Hey",
+              "Greetings",
+              "Good morning",
+              "Good afternoon",
+              "Good evening"
+          ],
+          "responses": [
+              "Hello! How can I assist you today?"
+          ]
+      },
+      {
+          "tag": "default_response",
+          "patterns": [
+              "Hi",
+              "Hello",
+              "Hey",
+              "Greetings",
+              "Good morning",
+              "Good afternoon",
+              "Good evening"
+          ],
+          "responses": [
+              "Hello! How can I assist you today?"
+          ]
+      },
+      {
+          "tag": "network_slow",
+          "patterns": [
+              "My network is slow",
+              "Slow internet connection",
+              "Network speed issue",
+              "Internet is sluggish",
+              "Why is my network slow?"
+          ],
+          "responses": [
+              "Here are a few steps to troubleshoot slow network issues:",
+              "1. Restart your computer and networking devices (modem, router).",
+              "2. Check for background downloads or uploads that may be consuming bandwidth.",
+              "3. Verify if other devices on the network are also experiencing slowness.",
+              "4. Run a speed test to check your internet connection speed.",
+              "5. Contact your ISP (Internet Service Provider) to verify if there are any service disruptions or issues in your area."
+          ]
+      },
+      {
+          "tag": "computer_freezing",
+          "patterns": [
+              "My computer keeps freezing",
+              "Computer is frozen",
+              "Desktop freezes frequently",
+              "PC locks up",
+              "Why does my computer freeze?"
+          ],
+          "responses": [
+              "To resolve computer freezing issues, try the following steps:",
+              "1. Close any unnecessary applications and tabs.",
+              "2. Restart your computer to clear temporary memory and processes.",
+              "3. Check for overheating by ensuring vents are clear and fans are functioning.",
+              "4. Update device drivers and install operating system updates.",
+              "5. Run a virus scan to check for malware or viruses.",
+              "6. If the issue persists, consider consulting IT support for further diagnosis."
+          ]
+      },
+      {
+          "tag": "forgot_password",
+          "patterns": [
+              "I forgot my password",
+              "Password reset",
+              "Can't log in",
+              "Reset my password",
+              "How to recover password?"
+          ],
+          "responses": [
+              "If you forgot your password, follow these steps to reset it:",
+              "1. Visit the password reset page or contact your IT helpdesk.",
+              "2. Provide necessary account verification details (like username, email address, or security questions).",
+              "3. Follow the instructions to reset your password.",
+              "4. Once reset, log in with your new password.",
+              "5. Ensure to choose a strong and memorable password for security."
+          ]
+      },
+      {
+          "tag": "software_crash",
+          "patterns": [
+              "My software keeps crashing",
+              "Application crashes",
+              "Program crashes frequently",
+              "Why does my software crash?"
+          ],
+          "responses": [
+              "Here are steps to troubleshoot software crashing issues:",
+              "1. Update the software to the latest version.",
+              "2. Check system requirements and ensure they are met.",
+              "3. Close other applications to free up system resources.",
+              "4. Restart your computer and try running the software again.",
+              "5. Reinstall the software if the problem persists.",
+              "6. Contact software support for assistance if the issue continues."
+          ]
+      },
+      {
+          "tag": "printer_not_printing",
+          "patterns": [
+              "My printer is not printing",
+              "Printer won't print",
+              "Printing problems",
+              "Why is my printer not working?"
+          ],
+          "responses": [
+              "To troubleshoot printer not printing issues, follow these steps:",
+              "1. Check printer connections (USB, network, power).",
+              "2. Ensure the printer has paper and enough ink or toner.",
+              "3. Restart the printer and wait for it to initialize.",
+              "4. Check for any error messages on the printer display panel.",
+              "5. Reinstall printer drivers or update them from the manufacturer's website.",
+              "6. Test print from another application or device to isolate the issue.",
+              "7. Contact IT support if the printer issue persists."
+          ]
+      },
+      {
+          "tag": "file_recovery",
+          "patterns": [
+              "I deleted a file accidentally",
+              "Recover deleted files",
+              "File recovery",
+              "Retrieve lost data",
+              "How to recover deleted files?"
+          ],
+          "responses": [
+              "If you accidentally deleted a file, follow these steps to attempt file recovery:",
+              "1. Check the Recycle Bin (Windows) or Trash (Mac) for recently deleted files.",
+              "2. Use file recovery software like Recuva, EaseUS Data Recovery Wizard, or Disk Drill.",
+              "3. Restore from a backup if you have one.",
+              "4. Avoid writing new data to the disk where the file was deleted to prevent overwriting.",
+              "5. Consult IT support for advanced data recovery options if necessary."
+          ]
+      },
+      {
+          "tag": "default_response",
+          "patterns": [
+              "Hi",
+              "Hello",
+              "Hey",
+              "Greetings",
+              "Good morning",
+              "Good afternoon",
+              "Good evening"
+          ],
+          "responses": [
+              "Hello! How can I assist you today?"
+          ]
+      },
+      {
+          "tag": "default_response",
+          "patterns": [
+              "Hi",
+              "Hello",
+              "Hey",
+              "Greetings",
+              "Good morning",
+              "Good afternoon",
+              "Good evening"
+          ],
+          "responses": [
+              "Hello! How can I assist you today?"
+          ]
+      },
+      {
+          "tag": "goodbye",
+          "patterns": [
+              "Goodbye",
+              "Bye",
+              "See you",
+              "Talk to you later",
+              "See you later"
+          ],
+          "responses": [
+              "Goodbye! Have a great day!"
+          ]
+      },
+      {
+          "tag": "thanks",
+          "patterns": [
+              "Thanks",
+              "Thank you",
+              "Thanks a lot",
+              "Thank you very much",
+              "Thanks for the help",
+              "Thank you for your help"
+          ],
+          "responses": [
+              "You're welcome!",
+              "Happy to help!",
+              "Anytime!",
+              "Glad I could assist!"
+          ]
+      },
+      {
+          "tag": "yes",
+          "patterns": [
+              "Yes",
+              "Yeah",
+              "Yep",
+              "Sure",
+              "Absolutely",
+              "Definitely"
+          ],
+          "responses": [
+              "Great!",
+              "Okay!",
+              "Understood!"
+          ]
+      },
+      {
+          "tag": "no",
+          "patterns": [
+              "No",
+              "Nope",
+              "Nah",
+              "Not really",
+              "I don't think so"
+          ],
+          "responses": [
+              "Alright.",
+              "Okay, let me know if you need anything else."
+          ]
+      }
+  ]
+}
